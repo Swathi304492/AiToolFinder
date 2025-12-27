@@ -1,4 +1,7 @@
 package com.aiToolFinder.aiToolFinder.repository;
 
-public class ReviewRepository {
+import com.aiToolFinder.aiToolFinder.entity.Review;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ReviewRepository extends JpaRepository<Review,Long> {
 }
